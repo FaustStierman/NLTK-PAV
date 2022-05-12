@@ -1,0 +1,83 @@
+NP -> PRP 
+NP -> DT NNP 
+NP -> NP PP 
+NP -> DT NNS 
+NP -> DT 
+NP -> PRP JJ NNS
+NP -> NNS
+NP -> DT NN
+NP -> PRP NN
+PP -> IN NP
+S -> NP VP
+S -> NP
+S -> VP
+S -> SBAR NP VP
+S -> NP ADJP
+S -> SBAR ADVP NP VP
+S -> S S
+S -> ADVP VP
+VP -> VBN ADVP
+VP -> VBD NP
+VP -> VB NP
+VP -> VBD NP PP
+VP -> VBG SBAR
+VP -> TO VP
+VP -> VBD ADJP SBAR
+VP -> VBD RB VP
+VP -> MD RB VP
+VP -> PP VP CC VP
+VP -> VB UCP
+VP -> VBD NP
+VP -> VBD S
+VP -> VBD
+VP -> VBD NP PP SBAR
+UCP -> PP VP CC VP
+VP -> ADVP VBN
+ADVP -> RB
+ADJP -> RB JJ
+ADJP -> JJ
+SBAR -> IN S
+SBAR -> WHADVP S
+SBAR -> WHPP S
+WHADVP -> WRB
+
+DT -> 'some' | 'these' | 'this' | 'those' | 'both' | 'an' | 'the' | 'every' | 'no' | 'a' | 'all'
+NN -> 'shepherd' | 'ease' | 'land' | 'voice' | 'doe' | 'porter' | 'destruction' | 'mask' | 'regard' | 'justice' | 'approach' | 'imitation' | 'intent' | 'disguise' | 'action' | 'catch' | 'lion' | 'brink' | 'woe' | 'i' | 'surface' | 'milk' | 'mouth' | 'paws' | 'tender' | 'shadow' | 'friend' | 'oyster' | 'foot' | 'stag' | 'sound' | 'eyed' | 'source' | 'safety' | 'cock' | 'water' | 'wood' | 'philanthropy' | 'tone' | 'well' | 'flock' | 'acquaintance' | 'mouse' | 'favor' | 'tyranny' | 'aim' | 'wolf' | 'fox' | 'mother' | 'sheep' | 'living' | 'flight' | 'right' | 'drink' | 'betook' | 'eye' | 'seashore' | 'sir' | 'pool' | 'hound' | 'dog' | 'innocent' | 'year' | 'tyrant' | 'night' | 'size' | 'prisoner' | 'morning' | 'plea' | 'bed' | 'face' | 'hawk' | 'value' | 'frog' | 'distance' | 'danger' | 'bear' | 'dress' | 'food' | 'blind' | 'hunter' | 'harm' | 'tree' | 'smile' | 'precaution' | 'pretext' | 'hatch' | 'anticipation' | 'shelter' | 'branch' | 'round' | 'breakfast' | 'saw' | 'owner' | 'man' | 'chance' | 'use' | 'oppressor' | 'leg' | 'sense' | 'astray' | 'lamb' | 'house' | 'mischief' | 'door' | 'fold' | 'respect' | 'actor' | 'day' | 'grass' | 'edge' | 'meeting' | 'person' | 'head' | 'body' | 'creature' | 'pasture' | 'sea'
+VBD -> 'disguised' | 'dawned' | 'dragged' | 'saw' | 'reflected' | 'desired' | 'carried' | 'said' | 'replied' | 'took' | 'were' | 'won' | 'observed' | 'appeared' | 'formed' | 'entered' | 'admired' | 'floated' | 'howled' | 'wounded' | 'awoke' | 'lived' | 'came' | 'resolved' | 'entertained' | 'became' | 'exclaimed' | 'did' | 'was' | 'reached' | 'led' | 'enjoyed' | 'insulted' | 'turned' | 'reproached' | 'found' | 'seized' | 'crowed' | 'kept' | 'approached' | 'perched' | 'sprang' | 'placed' | 'had' | 'caught' | 'stood' | 'addressed' | 'tore' | 'o' | 'felt'
+JJ -> 'angry' | 'usual' | 'shepherd' | 'drank' | 'fair' | 'much' | 'doe' | 'dead' | 'injured' | 'violent' | 'beautiful' | 'asleep' | 'suspected' | 'afraid' | 'last' | 'little' | 'safe' | 'wretched' | 'useless' | 'good' | 'frog' | 'weak' | 'human' | 'lamb' | 'mournful' | 'remain' | 'i' | 'own' | 'admirable' | 'unjust' | 'unlucky' | 'thick' | 'intimate' | 'high' | 'supperless' | 'unhappy' | 'such' | 'meritorious' | 'underrated' | 's' | 'successful' | 'valuable' | 'stag' | 'perilous' | 'apt'
+VBG -> 'having' | 'opening' | 'croaking' | 'rummaging' | 'saying' | 'contemplating' | 'hearing' | 'finding' | 'eating' | 'traveling' | 'taking' | 'sailing' | 'wishing' | 'reasoning' | 'trying' | 'pouncing' | 'approaching' | 'jumping' | 'being'
+IN -> 'without' | 'oh' | 'with' | 'until' | 'toward' | 'as' | 'after' | 'that' | 'near' | 'under' | 'for' | 'while' | 'in' | 'about' | 'towards' | 'through' | 'by' | 'though' | 'of' | 'bound' | 'like' | 'if' | 'against' | 'upon' | 'on' | 'from' | 'at'
+RB -> 'always' | 'sometimes' | 'often' | 'grossly' | 'much' | 'well' | 'then' | 'together' | 'fast' | 'still' | 'late' | 'indeed' | 'away' | 'so' | 'greatly' | 'aloft' | 'again' | 'quickly' | 'also' | 'never' | 'tightly' | 'loudly' | 't' | 'mortally' | 'amazingly' | 'only' | 'truly' | 'soon' | 'earnestly' | 'very' | 'even' | 'possibly' | 'thus' | 'yet' | 'too' | 'suddenly' | 'not' | 'entirely'
+PRP -> 'her' | 'me' | 'we' | 'myself' | 'you' | 'them' | 'she' | 'it' | 'himself' | 'he' | 'him'
+MD -> 'may' | 'will' | 'i' | 'could' | 'might' | 'would' | 'should'
+VB -> 'take' | 'ate' | 'give' | 'swam' | 'go' | 'eat' | 'lay' | 'spend' | 'overdo' | 'do' | 'wake' | 'run' | 'be' | 'sweet' | 'graze' | 'find' | 'perceive' | 'wait' | 'make' | 'secure' | 'entrap' | 'till' | 'i' | 'let' | 'born' | 'get' | 'have' | 'imitate' | 'sirrah' | 'act' | 'open' | 'touch' | 'justify' | 'try' | 'admit'
+CC -> 'but' | 'or' | 'and'
+VBN -> 'joined' | 'carried' | 'despised' | 'suffocated' | 'killed' | 'done' | 'tied' | 'fastened' | 'used' | 'eaten' | 'tasted' | 'come' | 'i' | 'saved' | 'attired' | 'accustomed' | 'deceived' | 'bleated' | 'boasted' | 'caught' | 'proved' | 'gloried' | 'entangled'
+TO -> 'to'
+WP -> 'what' | 'who'
+VBP -> 'drink' | 'am' | 'have' | 'feed' | 'try' | 'attempt' | 'refute' | 'are'
+PRP -> 'my' | 'her' | 'his' | 'its' | 'their' | 'our'
+NNS -> 'feet' | 'eggs' | 'imputations' | 'horns' | 'antlers' | 'hands' | 'branches' | 'schemes' | 'brains' | 'boatmen' | 'words' | 'properties' | 'pieces' | 'others' | 'animals'
+RP -> 'off' | 'out' | 'up'
+WRB -> 'how' | 'when'
+VBZ -> 'intends' | 'is' | 'wants' | 'comes'
+WDT -> 'which' | 'that'
+RBS -> 'least' | 'most'
+PDT -> 'all'
+CD -> 'one'
+JJR -> 'greater'
+RBR -> 'more' | 'boasted' | 'caught' | 'proved' | 'gloried' | 'entangled'
+TO -> 'to'
+WP -> 'what' | 'who'
+VBP -> 'drink' | 'am' | 'have' | 'feed' | 'try' | 'attempt' | 'refute' | 'are'
+PRP -> 'my' | 'her' | 'his' | 'its' | 'their' | 'our'
+NNS -> 'feet' | 'eggs' | 'imputations' | 'horns' | 'antlers' | 'hands' | 'branches' | 'schemes' | 'brains' | 'boatmen' | 'words' | 'properties' | 'pieces' | 'others' | 'animals'
+RP -> 'off' | 'out' | 'up'
+WRB -> 'how' | 'when'
+VBZ -> 'intends' | 'is' | 'wants' | 'comes'
+WDT -> 'which' | 'that'
+RBS -> 'least' | 'most'
+PDT -> 'all'
+CD -> 'one'
+JJR -> 'greater'
+RBR -> 'more'

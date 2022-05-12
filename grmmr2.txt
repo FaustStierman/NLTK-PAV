@@ -1,0 +1,262 @@
+NP -> PRP 
+NP -> PRP NNS
+NP -> DT NN
+NP -> NP PP 
+NP -> DT NNS 
+NP -> DT 
+NP -> PRP JJ NNS
+NP -> NNS
+NP -> DT NN
+NP -> PRP NN
+NP -> PRP NN S
+NP -> NP CC NP
+NP -> DT NN CC NN
+NP -> PDT PRP NNS
+PP -> IN NP
+PP -> SYM NP
+NP -> DT JJ NN
+NP -> JJ NN
+NP -> PRP
+NP -> PRP VP
+NP -> NN
+NP -> DT JJS NN
+NP -> PRP JJ NN
+NP -> NP CC RB NP
+NP -> NP VP
+NP -> PRP NN
+NP -> PRP VP
+S -> NP VP
+S -> NP
+S -> VP
+S -> SBAR NP VP
+S -> NP ADJP
+S -> SBAR ADVP NP VP
+S -> S S
+S -> ADVP VP
+S -> ADVP NP VP
+S -> NP ADVP VP
+S -> PRN NP VP
+S -> PRN NP ADVP VP
+S -> ADJP
+S -> NP RB VP
+S -> ADVP PRN NP VP
+S -> ADVP VP
+PRN -> SINV
+SINV -> VP NP
+PRN -> S
+VP -> VBD PP INTJ SBAR
+VP -> VBN
+VP -> VBN ADVP
+VP -> VBD NP
+VP -> VB NP
+VP -> VB NP PP
+VP -> VBD NP PP
+VP -> VBD PP NP
+VP -> VBG SBAR
+VP -> TO VP
+VP -> VBD ADJP SBAR
+VP -> VBD RB VP
+VP -> MD RB VP
+VP -> PP VP CC VP
+VP -> VP CC VP
+VP -> VB UCP
+VP -> VB NP
+VP -> VB PP NP
+VP -> VB PP
+VP -> VBD NP
+VP -> VBD S
+VP -> VBD
+VP -> VBD NP PP SBAR
+VP -> VBD SBAR
+VP -> VBD WHNP
+VP -> VBZ PP SBAR
+VP -> VBZ NP
+VP -> VBZ PP PP
+VP -> VBD ADVP PP S
+VP -> VBG NP
+VP -> VBD NP SBAR
+VP -> VBD NP PP SBAR
+VP -> VBD RB ADVP VP
+VP -> MD RB ADVP VP
+VP -> MD VP
+VP -> MD RB VP
+VP -> VB SBAR
+VP -> VBZ ADJP
+VP -> TO VP
+VP -> VBG PP ADVP PP
+VP -> VB NP NP
+VP -> RB VP CC VP
+VP -> VBD NP S
+VP -> ADVP NP VBD
+UCP -> PP VP CC VP
+VP -> ADVP VBN
+VP -> VBN NP NPTMP
+VP -> VBP PP
+NPTMP -> JJ NN
+ADVP -> RB
+ADVP -> RB RB
+ADJP -> RB JJ
+ADJP -> JJ
+ADJP -> JJ S
+SBAR -> IN S
+SBAR -> WHADVP S
+SBAR -> WHPP S
+SBAR -> WHNP S
+SBAR -> S
+S -> VP
+VP -> VBZ ADVP VP
+VBZ -> 'is'
+ADVP -> RB
+RB -> 'often'
+VP -> VBN
+VBN -> 'underrated'
+SBARQ -> WHNP SQ
+WHNP -> WP
+WHNP -> WDT
+WP -> 'what'
+SQ -> VBZ ADJP
+VBZ -> 'is'
+ADJP -> ADJP SBAR
+ADJP -> RBS RB JJ
+RBS -> 'most'
+RB -> 'truly'
+JJ -> 'valuable'
+WHADVP -> WRB
+DT -> 'the'
+NN -> 'fox'
+CC -> 'and'
+NN -> 'mask'
+VBD -> 'entered'
+NN -> 'house'
+IN -> 'of'
+DT -> 'an'
+NN -> 'actor'
+NN -> 'rummaging'
+IN -> 'through'
+PDT -> 'all'
+PRP -> 'his'
+NNS -> 'properties'
+VBD -> 'came'
+IN -> 'upon'
+JJ -> 'admirable'
+NN -> 'imitation'
+JJ -> 'human'
+NN -> 'head'
+PRP -> 'he'
+VBD -> 'placed'
+NNS -> 'paws'
+IN -> 'on'
+PRP -> 'it'
+VBD -> 'said'
+WP -> 'what'
+JJ -> 'beatiful'
+RB -> 'yet'
+PRP -> 'it'
+VBZ -> 'is'
+DT -> 'no'
+NN -> 'value'
+IN -> 'as'
+RB -> 'entirely'
+VBZ -> 'wants'
+NNS -> 'brains'
+JJ -> 'fair'
+NN -> 'face'
+JJ -> 'little'
+NN -> 'use'
+IN -> 'without'
+NN -> 'sense'
+NN -> 'bear'
+VBD -> 'boasted'
+RB -> 'very'
+RB -> 'much'
+NN -> 'philanthropy'
+VBG -> 'saying'
+DT -> 'that'
+DT -> 'all'
+NNS -> 'animals'
+PRP -> 'he'
+VBD -> 'was'
+JJS -> 'most'
+NN -> 'tender'
+IN -> 'in'
+NN -> 'regard'
+IN -> 'for'
+NN -> 'man'
+VBD -> 'had'
+JJ -> 'such'
+NN -> 'respect'
+PRP -> 'him'
+IN -> 'that'
+MD -> 'would'
+RB -> 'not'
+RB -> 'even'
+VB -> 'touch'
+JJ -> 'dead'
+NN -> 'body'
+VBG -> 'hearing'
+DT -> 'these'
+NNS -> 'words'
+VBD -> 'said'
+IN -> 'with'
+NN -> 'smile'
+IN -> 'to'
+INTJ -> UH
+UH -> 'oh'
+IN -> 'that'
+PRP -> 'you'
+MD -> 'would'
+VB -> 'eat'
+NN -> 'living'
+PRP -> 'we'
+MD -> 'should'
+VB -> 'wait'
+IN -> 'till'
+NN -> 'person'
+TO -> 'to'
+VB -> 'give'
+PRP -> 'our'
+NN -> 'lamb'
+NN -> 'wolf'
+VBG -> 'meeting'
+RB -> 'astray'
+IN -> 'from'
+NN -> 'fold'
+VBN -> 'resolved'
+VB -> 'lay'
+JJ -> 'violent'
+NNS -> 'hands'
+CC -> 'but'
+VB -> 'find'
+DT -> 'some'
+NN -> 'plea'
+WDT -> 'which'
+MD -> 'should'
+VB -> 'justify'
+PRP -> 'himself'
+NN -> 'right'
+RB -> 'then'
+VBN -> 'addressed'
+SYM -> ':'
+NN -> 'sirrah'
+JJ -> 'last'
+NN -> 'year'
+RB -> 'grossly'
+VBD -> 'insulted'
+PRP -> 'me'
+ADVP -> 'indeed'
+VBD -> 'bleated'
+JJ -> 'mournful'
+NN -> 'tone'
+NN -> 'voice'
+PRP -> 'i'
+VBD -> 'was'
+VBN -> 'born'
+VB -> 'feed'
+PRP -> 'my'
+NN -> 'pasture'
+DT -> 'a'
+VBP -> 'live'
+
+
+
+
