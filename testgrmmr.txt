@@ -1,0 +1,12 @@
+S -> SBARQ
+SBARQ -> WHADVP SQ
+WHADVP -> WRB
+WRB -> 'how'
+SQ -> VBP NP VP
+VBP -> 'have'
+NP -> PRP
+PRP -> 'i'
+VP -> VBN
+VBN -> 'deceived'
+NP -> PRP
+PRP -> 'myself'

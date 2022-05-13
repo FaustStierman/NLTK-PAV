@@ -41,6 +41,7 @@ S -> ADJP
 S -> NP RB VP
 S -> ADVP PRN NP VP
 S -> ADVP VP
+S -> SBARQ
 PRN -> SINV
 SINV -> VP NP
 PRN -> S
@@ -70,8 +71,11 @@ VP -> VBD NP PP SBAR
 VP -> VBD SBAR
 VP -> VBD WHNP
 VP -> VBZ PP SBAR
+VP -> VBZ ADVP VP
+VP -> VBZ PP
 VP -> VBZ NP
 VP -> VBZ PP PP
+ADVP -> JJS
 VP -> VBD ADVP PP S
 VP -> VBG NP
 VP -> VBD NP SBAR
@@ -91,6 +95,7 @@ VP -> ADVP NP VBD
 UCP -> PP VP CC VP
 VP -> ADVP VBN
 VP -> VBN NP NPTMP
+VP -> VBN NP
 VP -> VBP PP
 NPTMP -> JJ NN
 ADVP -> RB
@@ -111,6 +116,8 @@ RB -> 'often'
 VP -> VBN
 VBN -> 'underrated'
 SBARQ -> WHNP SQ
+SBARQ -> WHADVP SQ
+SQ -> VBP NP VP
 WHNP -> WP
 WHNP -> WDT
 WP -> 'what'
@@ -172,6 +179,7 @@ RB -> 'much'
 NN -> 'philanthropy'
 VBG -> 'saying'
 DT -> 'that'
+WDT -> 'that'
 DT -> 'all'
 NNS -> 'animals'
 PRP -> 'he'
@@ -256,7 +264,16 @@ PRP -> 'my'
 NN -> 'pasture'
 DT -> 'a'
 VBP -> 'live'
-
-
+VBP -> 'have'
+VBN -> 'deceived'
+PRP -> 'myself'
+WRB -> 'how'
+NN -> 'danger'
+RB -> 'sometimes'
+VBZ -> 'comes'
+NN -> 'source'
+VBZ -> 'is'
+JJS -> 'least'
+VBN -> 'suspected'
 
 
