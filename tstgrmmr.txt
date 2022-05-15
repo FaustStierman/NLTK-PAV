@@ -1,0 +1,324 @@
+S -> NP VP
+S -> VP
+S -> PP NP VP
+S -> NP ADJP
+S -> NP ADVP VP
+S -> ADVP NP ADVP VP
+S -> S PRN NP VP
+S -> S CC S
+VP -> TO VP
+VP -> VB NP
+VP -> VB S
+VP -> VB PP
+VP -> VBP NP NP SBAR
+VP -> VB NP NP
+VP -> VBZ NP
+VP -> VBZ S
+VP -> VBZ ADVP NP
+VP -> VBZ ADVP VP
+VP -> VBZ NP PP
+VP -> VBZ PP
+VP -> VBZ VP
+VP -> VBP
+VP -> VBP VP
+VP -> VBP NP
+VP -> VBP NP S
+VP -> VBP NP PP
+VP -> VBP PP
+VP -> VBP PP PP
+VP -> VBN NP
+VP -> VBN VP
+VP -> VBN
+VP -> VBN PP
+VP -> VBN PP PP
+VP -> VBN S
+VP -> VBD
+VP -> VBD NP
+VP -> VBD VP
+VP -> VBD ADJP
+VP -> VBD SBAR
+VP -> VBD PP PP
+VP -> VBD PP NP
+VP -> VBD PP
+VP -> VBD PRT PP PP
+VP -> VP CC VP
+VP -> VBG NP
+VP -> VBG PP
+VP -> VBG VP
+VP -> VBG SBAR
+VP -> VBG NP SBAR
+VP -> VB PRT SBAR
+VP -> VBP ADJP
+VP -> VBP SBAR
+VP -> VBZ SBAR
+NP -> NP CC NP
+NP -> PRP JJ NN
+NP -> DT CD NNS
+NP -> NP VP
+NP -> PRP
+NP -> PRP JJ
+NP -> JJ NP CC NP
+NP -> JJ NNSF
+NP -> JJ NN
+NP -> JJ NNS S
+NP -> JJ NNS
+NP -> DT NN
+NP -> DT NN JJ NN
+NP -> DT JJ NN
+NP -> DT NNS
+NP -> DT NNS NN
+NP -> NP PP
+NP -> NN
+NP -> NN NN
+NP -> NNS
+NP -> NP SBAR
+NP -> EX
+NP -> RBS JJ NN
+NP -> CD NN
+NP -> CD
+NP -> NP NP
+NP -> NP SBAR
+NP -> NNP NNP
+NP -> NNP NN
+NP -> NNP
+NP -> DT ADJP NN NN
+NP -> DT NML NN NN
+NP -> DT JJ JJ NN S
+SBAR -> WHNP S
+SBAR -> WHADJP S
+SBAR -> WHADVP S
+SBAR -> IN S
+WHNP -> WP
+PP -> IN NP
+PP -> DT PP CC PP
+PP -> PP CC PP
+PP -> IN
+PP -> IN S
+ADJP -> JJ
+ADJP -> JJR
+ADJP -> ADJP PP
+ADVP -> RB
+SBAR -> WHADVP S
+SBAR -> WHNP S
+SBAR -> SBAR CC SBAR
+WHNP -> WDT
+WHADVP -> WRB
+WHADJP -> RB WRB JJ
+PRT -> RP
+PRN -> SINV
+SINV -> VP NP
+
+NN -> 'linguistics'
+NNS -> 'linguistics'
+VBZ -> 'is'
+DT -> 'the'
+NN -> 'study'
+IN -> 'of'
+NN -> 'language'
+NNS -> 'people'
+WP -> 'who'
+VBP -> 'study'
+VBP -> 'are'
+VBN -> 'called'
+NN -> 'linguists'
+JJ -> 'many'
+VBP -> 'compare'
+NNS -> 'languages'
+TO -> 'to'
+VB -> 'find'
+JJ -> 'similar'
+NNS -> 'properties'
+EX -> 'there'
+VBP -> 'are'
+JJ -> 'many'
+NNS -> 'ways'
+VB -> 'use'
+DT -> 'every'
+NN -> 'day'
+IN -> 'for'
+JJ -> 'many'
+NNS -> 'centuries'
+RBS -> 'most'
+JJ -> 'linguistic'
+NN -> 'work'
+VBD -> 'was'
+JJ -> 'philology'
+JJ -> 'literary'
+NNS -> 'theorists'
+VBP -> 'study'
+NN -> 'use'
+IN -> 'of'
+IN -> 'in'
+NN -> 'literature'
+NN -> 'discourse'
+NN -> 'analysis'
+JJ -> 'entire'
+NNS -> 'conversations'
+CC -> 'or'
+NNS -> 'texts'
+DT -> 'some'
+JJ -> 'applied'
+CC -> 'and'
+VBP -> 'use'
+VB -> 'do'
+VBP -> 'do'
+NNS -> 'things'
+CD -> 'one'
+NN -> 'part'
+IN -> 'of'
+JJ -> 'historical'
+NN -> 'history'
+NNS -> 'words'
+RB -> 'etymology'
+NN -> 'etymology' 
+RB -> 'first'
+JJ -> 'first'
+VBN -> 'used'
+VB -> 'talk'
+IN -> 'about'
+IN -> 'behind'
+DT -> 'a'
+NN -> 'meaning'
+NN -> 'word' 
+NN -> 'semiotics'
+NN -> 'example'
+JJ -> 'general'
+NNS -> 'signs'
+NNS -> 'symbols'
+DT -> 'both'
+IN -> 'within'
+IN -> 'without'
+DT -> 'another'
+VBN -> 'involved'
+VBG -> 'understanding'
+NNS -> 'languages'
+NN -> 'society'
+NN -> 'world'
+WDT -> 'that'
+VBZ -> 'aims'
+RP -> 'out'
+VBZ -> 'works'
+NN -> 'mind'
+VBN -> 'known'
+IN -> 'as'
+NN -> 'psycholinguistics'
+WRB -> 'how'
+NNP -> 'John'
+NNP -> 'Mccarthy'
+VBD -> 'came'
+RP -> 'up'
+IN -> 'with'
+NN -> 'name'
+JJ -> 'artificial'
+NN -> 'intelligence'
+CD -> '1955'
+NN -> 'term'
+VBZ -> 'means'
+NN -> 'programme'
+WDT -> 'which'
+VBZ -> 'mimics'
+JJ -> 'human'
+NN -> 'cognition'
+NNS -> 'approaches'
+NNS -> 'tools'
+VBP -> 'have'
+VBN -> 'been'
+VBN -> 'tried'
+PRP -> 'they'
+IN -> 'on'
+PRP -> 'their'
+JJ -> 'own'
+VBG -> 'being'
+VBN -> 'encoded'
+NNS -> 'commands'
+PRP -> 'it'
+RB -> 'also'
+NN -> 'field'
+VBZ -> 'tries'
+VB -> 'make'
+NNS -> 'computers'
+JJ -> 'smart'
+NNP -> 'humanized'
+NNP -> 'ai'
+VBZ -> 'shows'
+NNS -> 'characteristics'
+DT -> 'all'
+NNS -> 'types'
+NNS -> 'competencies'
+NN -> 'research'
+RB -> 'really'
+VBD -> 'started'
+NN -> 'conference'
+IN -> 'at'
+NNP -> 'Dartmouth'
+NNP -> 'College'
+CD -> '1956'
+RB -> 'unfortunately'
+NNS -> 'researchers'
+VBD -> 'underestimated'
+RB -> 'just'
+JJ -> 'hard'
+NNS -> 'problems'
+VBD -> 'were'
+NN -> 'funding'
+VBN -> 'cut'
+VBG -> 'starting'
+DT -> 'an'
+NN -> 'winter'
+WRB -> 'where'
+JJ -> 'little'
+VBN -> 'done'
+VBG -> 'searching'
+NNS -> 'databases'
+VBG -> 'doing'
+NNS -> 'calculations'
+JJR -> 'better'
+IN -> 'than'
+JJ -> 'monthlong'
+NN -> 'brainstorming'
+NN -> 'session'
+VBN -> 'attended'
+IN -> 'by'
+NNS -> 'interests'
+VBZ -> 'studies'
+NN -> 'sociolinguistics'
+VBP -> 'change'
+IN -> 'over'
+NN -> 'time'
+NN -> 'past'
+JJ -> 'forensic'
+NN -> 'crime'
+NN -> 'investigations'
+JJ -> 'computational'
+VB -> 'help'
+VB -> 'understand'
+NN -> 'structured'
+VBN -> 'said'
+JJ -> 'theoretical'
+VBD -> 'began'
+NN -> 'india'
+NN -> 'panini'
+JJ -> '5th'
+NN -> 'century'
+NN -> 'bc'
+NN -> 'grammarian'
+VBD -> 'wrote'
+CD -> '3959'
+NNS -> 'rules'
+JJ -> 'sanskrit'
+NN -> 'grammar'
+NN -> 'plato'
+JJ -> 'western'
+NN -> 'philosopher'
+VB -> 'write'
+NN -> 'semantics'
+VBP -> 'consider'
+NN -> 'danger'
+NN -> 'humanity'
+IN -> 'if'
+VBZ -> 'continues'
+VB -> 'progress'
+PRP -> 'its'
+JJ -> 'current'
+NN -> 'pace'
+IN -> 'to'
