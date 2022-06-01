@@ -6,7 +6,7 @@ S -> NP ADVP VP
 S -> ADVP NP ADVP VP
 S -> S PRN NP VP
 S -> S CC S
-VP -> TO VP
+
 VP -> VB NP
 VP -> VB S
 VP -> VB PP
@@ -51,44 +51,49 @@ VP -> VB PRT SBAR
 VP -> VBP ADJP
 VP -> VBP SBAR
 VP -> VBZ SBAR
-NP -> NP CC NP
-NP -> PRP JJ NN
-NP -> DT CD NNS
-NP -> NP VP
-NP -> PRP
-NP -> PRP JJ
-NP -> JJ NP CC NP
-NP -> JJ NNSF
-NP -> JJ NN
-NP -> JJ NNS S
-NP -> JJ NNS
-NP -> DT NN
-NP -> DT NN JJ NN
-NP -> DT JJ NN
-NP -> DT NNS
-NP -> DT NNS NN
-NP -> NP PP
+VP -> TO VP
+
 NP -> NN
 NP -> NN NN
+NP -> DT NN
+NP -> DT NNS
+NP -> DT JJ NN
+NP -> DT NN JJ NN
+NP -> NP VP
+NP -> NP CC NP
+NP -> PRP
+NP -> PRP JJ
+NP -> PRP JJ NN
+NP -> DT CD NNS
+NP -> JJ NP CC NP
+NP -> DT NNS NN
+NP -> NP PP
 NP -> NNS
 NP -> NP SBAR
 NP -> EX
 NP -> RBS JJ NN
+NP -> JJ NNS
 NP -> CD NN
 NP -> CD
+NP -> JJ NNS
 NP -> NP NP
 NP -> NP SBAR
+NP -> JJ NN
 NP -> NNP NNP
 NP -> NNP NN
 NP -> NNP
 NP -> DT ADJP NN NN
 NP -> DT NML NN NN
 NP -> DT JJ JJ NN S
+NP -> JJ NNS S
+
 SBAR -> WHNP S
 SBAR -> WHADJP S
 SBAR -> WHADVP S
 SBAR -> IN S
+
 WHNP -> WP
+
 PP -> IN NP
 PP -> DT PP CC PP
 PP -> PP CC PP
@@ -108,8 +113,6 @@ PRT -> RP
 PRN -> SINV
 SINV -> VP NP
 
-NN -> 'linguistics'
-NNS -> 'linguistics'
 VBZ -> 'is'
 DT -> 'the'
 NN -> 'study'
@@ -161,6 +164,8 @@ JJ -> 'applied'
 CC -> 'and'
 VBP -> 'use'
 VB -> 'do'
+NN -> 'linguistics'
+NNS -> 'linguistics'
 VBP -> 'do'
 NNS -> 'things'
 CD -> 'one'
